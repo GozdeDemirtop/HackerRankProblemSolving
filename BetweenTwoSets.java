@@ -1,6 +1,3 @@
-import java.io.*;
-import java.util.List;
-import java.util.stream.Stream;
 
 /*You will be given two arrays of integers and asked to determine all integers that satisfy the following two conditions:
 
