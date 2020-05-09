@@ -67,7 +67,7 @@ public class CompareTheTriplets {
         /*int aliceScore = 0;
         int bobScore = 0;
 
-        for (int i = 0; i < a.size() && i < b.size(); i++) {
+        for (int i = 0; i < 3; i++) {
             if (a.get(i) > b.get(i))
                 aliceScore++;
             else if (a.get(i) < b.get(i))
@@ -88,10 +88,12 @@ public class CompareTheTriplets {
             }
         }
 
-        List<Integer> score = new ArrayList<>();
+        return Arrays.asList(aliceScore, bobScore);
+
+        /*List<Integer> score = new ArrayList<>();
         score.add(aliceScore);
         score.add(bobScore);
-        return score;
+        return score;*/
     }
 
     public static void main(String[] args) throws IOException {
